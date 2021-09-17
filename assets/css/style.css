@@ -710,20 +710,21 @@ text-align: center;
   margin-bottom: 0;  
   font-weight: 700;
   font-size:20px;
-  color: #C9DFEC;
-  text-shadow: 1px 1px #000;
+  color: rgb(119, 113, 113);
+ /* text-shadow: 1px 1px rgb(76, 75, 75);*/
 }
 .about .content b {
   margin-bottom: 0;
-  color: #fff;
+  color: rgb(77, 74, 74);
   font-size:23px;
 }
 .about .content li {
   margin-bottom: 0;
   font-weight: 700;
   font-size:20px;
-  color: #C9DFEC;
-  text-shadow: 1px 1px #000;
+  /*color: #C9DFEC;*/
+  color: rgb(119, 113, 113);
+ 
 }
 
 
@@ -880,6 +881,7 @@ text-align: center;
 .counts .count-box a:hover {
   color: #777777;
 }
+
 @media(max-width:768px){
   .row div{
     margin:1rem;
@@ -919,8 +921,13 @@ text-align: center;
 .colli{
   color:black;
 }
+#OurWork{
+  background-image:url(../img/backG6.jpg);
+}
 /*--------------------------------------------------------------
 # Clients
+
+
 --------------------------------------------------------------*/
 .clients {
   padding: 15px 0;
@@ -947,10 +954,10 @@ text-align: center;
 }
 
 /*--------------------------------------------------------------
-# Services
+# Services & Ideas
 --------------------------------------------------------------*/
 .services{
-  background-image:url(../img/bgIMG.jpg);
+  background-image:url(../img/backG6.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
@@ -965,12 +972,13 @@ text-align: center;
   text-align: center;
 }
 .services .section-title p{
-  color: #C9DFEC;
+  color: rgb(119, 113, 113);
   text-align: center;
   text-shadow: -1px 1px #000;
 }
 .services .icon-box {
   margin-bottom: 20px;
+  color: rgb(119, 113, 113);
   text-align: center;
 }
 
@@ -1001,8 +1009,8 @@ text-align: center;
   line-height: 0;
 }
 
-.services:hover .icon {
-  box-shadow: 0px 0 25px rgba(92, 159, 36, 0.3);
+.services .icon:hover{
+  box-shadow: 0px 0 60px rgb(231, 7, 7);
 }
 
 .services .title {
@@ -1014,7 +1022,7 @@ text-align: center;
 }
 
 .services .title a {
-  color: #444444;
+  color: #000000;
   transition: 0.3s;
 }
 
@@ -1513,7 +1521,7 @@ margin:2rem;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq{
-  background-image: url(../img/bgIMG.jpg);
+  background-image: url(../img/backG6.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
@@ -1533,7 +1541,7 @@ margin:2rem;
 .section-details p{
   font-weight: 700;
   font-size: 25px;
-  color: #C9DFEC;
+  color: rgb(119, 113, 113);
   text-align: center;
   margin-bottom: 1rem;
 
@@ -1631,7 +1639,7 @@ PORTFOLIO
 ...............................................................*/
 
 #portfolio{
-background-color: black;
+  background-image: url(../img/backG6.jpg);
 color: white;
 
 }
@@ -1829,7 +1837,7 @@ grid-gap: 20px;
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-image: url(../img/bgIMG.jpg);
+  background-image: url(../img/backG6.jpg);
   background-size: cover;
   position: relative;
   margin-bottom: 0px;
@@ -1850,7 +1858,7 @@ grid-gap: 20px;
 .section-titles p{
   font-weight: 700;
   font-size: 25px;
-  color: #C9DFEC;
+  color: rgb(119, 113, 113);
   text-align: center;
 }
 label{
