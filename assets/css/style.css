@@ -1337,7 +1337,10 @@ margin:2rem;
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background-image:url(../img/backG6.jpg);
+  margin-top: 25px;
+  background-repeat: repeat;
+  margin-bottom: 25px;
   padding: 60px 0;
 }
 
