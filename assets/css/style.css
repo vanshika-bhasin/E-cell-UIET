@@ -974,6 +974,7 @@ text-align: center;
   color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
+  padding-bottom: 15px;
 }
 .services .section-title p{
   text-align: center;
@@ -1539,10 +1540,11 @@ margin:2rem;
   color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
+  padding-bottom: 15px;
 }
 .section-details p{
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   
   color: rgb(77, 74, 74);
   text-shadow: -1px 1px #000;
@@ -1872,6 +1874,7 @@ grid-gap: 20px;
   color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
+  padding-bottom: 15px;
   
 }
 .section-titles p{
@@ -2046,7 +2049,7 @@ label{
     width:80%;
     height:500px;
     margin-top:4rem;
-  
+  align-items: center;
   }
  
 
@@ -2117,9 +2120,7 @@ label{
     display: inline-block;
   }
 }
-.section-title h1{
-  color:#c70202;
-}
+
 .inner-page .container h2{
   color:#343a40
 }
