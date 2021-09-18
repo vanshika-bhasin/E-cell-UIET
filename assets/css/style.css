@@ -710,12 +710,14 @@ text-align: center;
   margin-bottom: 0;  
   font-weight: 700;
   font-size:20px;
-  color: rgb(119, 113, 113);
+  color: rgb(48, 46, 46);
+  text-shadow: -1px 1px #000;
  /* text-shadow: 1px 1px rgb(76, 75, 75);*/
 }
 .about .content b {
   margin-bottom: 0;
   color: rgb(77, 74, 74);
+  text-shadow: -1px 1px #000;
   font-size:23px;
 }
 .about .content li {
@@ -723,7 +725,8 @@ text-align: center;
   font-weight: 700;
   font-size:20px;
   /*color: #C9DFEC;*/
-  color: rgb(119, 113, 113);
+  color: rgb(48, 46, 46);
+  text-shadow: -1px 1px #000;
  
 }
 
@@ -972,13 +975,14 @@ text-align: center;
   text-align: center;
 }
 .services .section-title p{
-  color: rgb(119, 113, 113);
   text-align: center;
+  color: rgb(77, 74, 74);
   text-shadow: -1px 1px #000;
 }
 .services .icon-box {
   margin-bottom: 20px;
   color: rgb(119, 113, 113);
+
   text-align: center;
 }
 
@@ -1338,12 +1342,17 @@ margin:2rem;
 --------------------------------------------------------------*/
 .team {
   background-image:url(../img/backG6.jpg);
-  margin-top: 25px;
   background-repeat: repeat;
-  margin-bottom: 25px;
   padding: 60px 0;
 }
-
+.team .section-title h1{
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  
+}
+.team .section-title h3{
+  color: #000;
+}
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -1384,7 +1393,7 @@ margin:2rem;
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .team .member span {
@@ -1519,6 +1528,26 @@ margin:2rem;
   border-color: #fff;
   color: #e33b3b;
 }
+/*-------------------------------------
+#Give wings to your Ideas
+-----------------------------*/
+.section-details h2{
+  font-weight: 700;
+  font-size: 56px;
+  color: #fff;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.section-details p{
+  font-weight: 700;
+  font-size: 25px;
+  
+  color: rgb(77, 74, 74);
+  text-shadow: -1px 1px #000;
+  text-align: center;
+  margin-bottom: 1rem;
+
+}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1530,25 +1559,10 @@ margin:2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top:1rem;
-  margin-bottom: 1rem;
-}
-
-.section-details h2{
-  font-weight: 700;
-  font-size: 56px;
-  color: #fff;
-  text-shadow: 2px 1px 1px red;
-  text-align: center;
-}
-.section-details p{
-  font-weight: 700;
-  font-size: 25px;
-  color: rgb(119, 113, 113);
-  text-align: center;
-  margin-bottom: 1rem;
 
 }
+
+
 
 .faq .faq-list {
   padding: 0 100px;
@@ -1843,11 +1857,11 @@ grid-gap: 20px;
   background-image: url(../img/backG6.jpg);
   background-size: cover;
   position: relative;
-  margin-bottom: 0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -30px;
 
 }
 .section-titles h1{
@@ -1861,7 +1875,9 @@ grid-gap: 20px;
 .section-titles p{
   font-weight: 700;
   font-size: 25px;
-  color: rgb(119, 113, 113);
+  
+  color: rgb(77, 74, 74);
+  text-shadow: -1px 1px #000;
   text-align: center;
 }
 label{
@@ -1889,7 +1905,7 @@ label{
 
 .contact .contact-info h3 {
   font-size: 18px;
-  margin-bottom: 15px;
+
   font-weight: bold;
   text-transform: uppercase;
   color: #999;
@@ -2268,7 +2284,6 @@ label{
  font: bold 16px sans-serif;
  padding:55px 50px 5px 50px;
  
- margin-top: 1rem;
 }
  
 .footer-distributed .footer-left,
