@@ -1396,9 +1396,21 @@ margin:2rem;
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
+.team .member img{
+  height: 240px;
+  width: 260px;
+}
+#team-teacher .row{
+  margin: 0 50px;
+}
+#team-teacher .member img
+{
+  width: 350px;
+  height: 280px;
+}
 .team .member span {
   font-style: italic;
   display: block;
