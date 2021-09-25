@@ -896,7 +896,7 @@ text-align: center;
   }
   .row div .img-fluid{
     display:inline-block;
-    margin-left:7rem;
+   
     height:200px;
     width:200px;
   }
@@ -908,7 +908,7 @@ text-align: center;
   }
   .row div .img-fluid{
     display:inline-block;
-    margin-left:5rem;
+  
     height:200px;
     width:200px;
   }
@@ -920,7 +920,7 @@ text-align: center;
   }
   .row div .img-fluid{
     display:inline-block;
-    margin-left:1.5rem;
+   
     height:200px;
     width:200px;
   }
@@ -1543,7 +1543,7 @@ margin:2rem;
 
 .team .member img{
   height: 240px;
-  width: 260px;
+  width: 100%;
 }
 #team-teacher .row{
   margin: 0 50px;
@@ -1576,6 +1576,17 @@ margin:2rem;
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+@media (min-width:684px )and (max-width: 985px) {
+.team .member img{
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+  
 }
 
 /*--------------------------------------------------------------
