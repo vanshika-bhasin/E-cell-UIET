@@ -900,6 +900,9 @@ text-align: center;
     height:200px;
     width:200px;
   }
+  .collaboration{
+    text-align: center;
+  }
 }
 @media(max-width:500){
   .row div{
@@ -2625,7 +2628,7 @@ label{
  display: block;
  width: 100%;
  margin-bottom: 40px;
- text-align: center;
+
  }
  
  .footer-distributed .footer-center i{
@@ -2636,13 +2639,16 @@ label{
  line-height: normal;
  font-size: auto;
  }
-
+.credits{
+  text-align: left;
+}
 
  .marquee{
   font-size: 180%; 
   color: black; 
   tab-size: 8;
 } 
+
 
 
 .btn-primary {
