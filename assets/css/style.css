@@ -1942,6 +1942,13 @@ grid-gap: 20px;
 }
 
 @media (min-width:684px )and (max-width: 985px){
+  .portpic{
+    display: grid;
+    grid-template-columns:repeat(2,minmax(350px,1fr)); 
+    grid-auto-rows: 350px;
+    grid-auto-columns: 50px;
+    grid-gap: 20px;
+    }
 #item1{
   grid-row-start: 1;
   grid-row-end: 2;
@@ -1997,6 +2004,13 @@ grid-gap: 20px;
 }
 }
 @media  (max-width: 683px){
+  .portpic{
+    display: grid;
+    grid-template-columns:repeat(1,minmax(350px,1fr)); 
+    grid-auto-rows: 350px;
+    grid-auto-columns: 50px;
+    grid-gap: 20px;
+    }
 #item1{
   grid-row-start: 1;
   grid-row-end: 2;
