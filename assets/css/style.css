@@ -1354,7 +1354,9 @@ margin:2rem;
 .announcements p{
   color: #16191e;
 }
-
+.announcements .card-body:hover{
+cursor: pointer;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   /* Show 4th slide on md if col-md-4*/
   .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
