@@ -1487,6 +1487,9 @@ cursor: pointer;
       visibility: visible;
   }
 }
+.carousel-inner{
+  padding: 0 15%;
+}
 
 
 
