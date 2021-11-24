@@ -1352,123 +1352,7 @@ margin:2rem;
   padding: 0;
 }
 
-/*----------ts------------*/
-.carousel-showmanymoveone .carousel-control {
-   width: 4%;
-   background-image: none;
-}
-
-.carousel-showmanymoveone .carousel-control.left {
-   margin-left: 0;
-}
-
-.carousel-showmanymoveone .carousel-control.right {
-   margin-right: 0;
-}
-
-.carousel-showmanymoveone .cloneditem-1,
-.carousel-showmanymoveone .cloneditem-2,
-.carousel-showmanymoveone .cloneditem-3 {
-   display: none;
-}
-
-.carousel .item .col-xs-12 {
-   padding: 0;
-}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (max-width: 992px) {
-   .carousel .item .col-xs-12:nth-last-child(-n+2) {
-      display: none;
-   }
-}
-
-@media all and (min-width: 768px) {
-   .carousel-showmanymoveone .carousel-inner > .active.left,
-   .carousel-showmanymoveone .carousel-inner > .prev {
-      left: -50%;
-   }
-   .carousel-showmanymoveone .carousel-inner > .active.right,
-   .carousel-showmanymoveone .carousel-inner > .next {
-      left: 50%;
-   }
-   .carousel-showmanymoveone .carousel-inner > .left,
-   .carousel-showmanymoveone .carousel-inner > .prev.right,
-   .carousel-showmanymoveone .carousel-inner > .active {
-      left: 0;
-   }
-   .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
-      display: block;
-   }
-}
-
-@media all and (min-width: 768px) and (transform-3d),
-all and (min-width: 768px) and (-webkit-transform-3d) {
-   .carousel-showmanymoveone .carousel-inner > .item.active.right,
-   .carousel-showmanymoveone .carousel-inner > .item.next {
-      -webkit-transform: translate3d(50%, 0, 0);
-      transform: translate3d(50%, 0, 0);
-      left: 0;
-   }
-   .carousel-showmanymoveone .carousel-inner > .item.active.left,
-   .carousel-showmanymoveone .carousel-inner > .item.prev {
-      -webkit-transform: translate3d(-50%, 0, 0);
-      transform: translate3d(-50%, 0, 0);
-      left: 0;
-   }
-   .carousel-showmanymoveone .carousel-inner > .item.left,
-   .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-   .carousel-showmanymoveone .carousel-inner > .item.active {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      left: 0;
-   }
-}
-
-@media all and (min-width: 992px) {
-   .carousel-showmanymoveone .carousel-inner > .active.left,
-   .carousel-showmanymoveone .carousel-inner > .prev {
-      left: -16.6%;
-   }
-   .carousel-showmanymoveone .carousel-inner > .active.right,
-   .carousel-showmanymoveone .carousel-inner > .next {
-      left: 16.6%;
-   }
-   .carousel-showmanymoveone .carousel-inner > .left,
-   .carousel-showmanymoveone .carousel-inner > .prev.right,
-   .carousel-showmanymoveone .carousel-inner > .active {
-      left: 0;
-   }
-   .carousel-showmanymoveone .carousel-inner .cloneditem-2,
-   .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
-      display: block;
-   }
-}
-
-@media all and (min-width: 992px) and (transform-3d),
-all and (min-width: 992px) and (-webkit-transform-3d) {
-   .carousel-showmanymoveone .carousel-inner > .item.active.right,
-   .carousel-showmanymoveone .carousel-inner > .item.next {
-      -webkit-transform: translate3d(16.6%, 0, 0);
-      transform: translate3d(16.6%, 0, 0);
-      left: 0;
-   }
-   .carousel-showmanymoveone .carousel-inner > .item.active.left,
-   .carousel-showmanymoveone .carousel-inner > .item.prev {
-      -webkit-transform: translate3d(-16.6%, 0, 0);
-      transform: translate3d(-16.6%, 0, 0);
-      left: 0;
-   }
-   .carousel-showmanymoveone .carousel-inner > .item.left,
-   .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-   .carousel-showmanymoveone .carousel-inner > .item.active {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      left: 0;
-   }
-}
+/* ----------ts------------*/
 
 .announcements p{
   color: #16191e;
@@ -1476,23 +1360,24 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 .announcements .card-body:hover{
 cursor: pointer;
 }
-@media (min-width: 768px) and (max-width: 991px) {
+
+/* @media (min-width: 768px) and (max-width: 991px) { */
   /* Show 4th slide on md if col-md-4*/
-  .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+  /* .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
       position: absolute;
       top: 0;
-      right: -33.3333%;  /*change this with javascript in the future*/
+      right: -33.3333%; 
       z-index: -1;
       display: block;
       visibility: visible;
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) { */
   /* Show 3rd slide on sm if col-sm-6*/
-  .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+  /* .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
       position: absolute;
       top: 0;
-      right: -50%;  /*change this with javascript in the future*/
+      right: -50%;  
       z-index: -1;
       display: block;
       visibility: visible;
@@ -1501,9 +1386,9 @@ cursor: pointer;
 @media (min-width: 576px) {
   .carousel-item {
       margin-right: 0;
-  }
+  } */
   /* show 2 items */
-  .carousel-inner .active + .carousel-item {
+  /* .carousel-inner .active + .carousel-item {
       display: block;
   }
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
@@ -1513,26 +1398,26 @@ cursor: pointer;
   .carousel-inner .carousel-item-next {
       position: relative;
       transform: translate3d(0, 0, 0);
-  }
+  } */
   /* left or forward direction */
-  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  /* .active.carousel-item-left + .carousel-item-next.carousel-item-left,
   .carousel-item-next.carousel-item-left + .carousel-item,
   .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
-  }
+  } */
   /* farthest right hidden item must be also positioned for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
+  /* .carousel-inner .carousel-item-prev.carousel-item-right {
       position: absolute;
       top: 0;
       left: 0;
       z-index: -1;
       display: block;
       visibility: visible;
-  }
+  } */
   /* right or prev direction */
-  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  /* .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item,
   .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
       position: relative;
@@ -1541,11 +1426,11 @@ cursor: pointer;
       display: block;
       visibility: visible;
   }
-}
+} */
 /* MD */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
   /* show 3rd of 3 item slide */
-  .carousel-inner .active + .carousel-item + .carousel-item {
+  /* .carousel-inner .active + .carousel-item + .carousel-item {
       display: block;
   }
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
@@ -1554,59 +1439,61 @@ cursor: pointer;
   .carousel-inner .carousel-item-next {
       position: relative;
       transform: translate3d(0, 0, 0);
-  }
+  } */
   /* left or forward direction */
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+  /* .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
-  }
+  } */
   /* right or prev direction */
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+  /* .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(100%, 0, 0);
       visibility: visible;
       display: block;
       visibility: visible;
   }
-}
+} */
 /* LG */
-@media (min-width: 991px) {
+ /* @media (min-width: 991px) { */
   /* show 4th item */
-  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+/*  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
       display: block;
   }
   .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
       transition: none;
-  }
+  } */
   /* Show 5th slide on lg if col-lg-3 */
-  .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+  /* .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
       position: absolute;
       top: 0;
-      right: -25%;  /*change this with javascript in the future*/
+      right: -25%;  
       z-index: -1;
       display: block;
       visibility: visible;
-  }
+  } */
   /* left or forward direction */
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+  /* .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(-100%, 0, 0);
       visibility: visible;
-  }
+  } */
   /* right or prev direction //t - previous slide direction last item animation fix */
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+/*  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
       position: relative;
       transform: translate3d(100%, 0, 0);
       visibility: visible;
       display: block;
       visibility: visible;
   }
-}
+}*/
 .carousel-inner{
-  padding: 0 15%;
+padding: 0 12%;
 }
-
+.card{
+  margin: 0 3%;
+}
      .item{
       transition: 500ms ease-in-out left;
     }
@@ -1635,7 +1522,6 @@ cursor: pointer;
     .left, .right{
       background-image: none;
     }
-  
 
 
 /*--------------------------------------------------------------
