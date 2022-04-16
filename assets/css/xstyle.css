@@ -2,7 +2,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #C9DFEC;
-  background-color: #000;
+  
 }
 
 
@@ -583,7 +583,9 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
 }
-
+.section-bg {
+  background-color: #f1f1f1;
+}
 .section-title2 {
   text-align: center;
   padding-bottom: 30px;
@@ -662,7 +664,7 @@ text-align: center;
 .head{
   font-weight: 700;
   font-size: 56px;
-  color: white;
+  color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
   margin:0 0 2rem 0;
@@ -679,7 +681,7 @@ text-align: center;
 }
 
 .about{
- 
+  background-image:url(../img/backG6.jpg);
    color:rgb(17, 7, 7);
    background-size: cover;
    z-index: 1000;
@@ -710,15 +712,15 @@ text-align: center;
   margin-bottom: 0;  
   font-weight: 400;
   font-size:20px;
-  color: white;
-
+  color: rgb(48, 46, 46);
+  text-shadow: 0px 1px #000;
   text-align: justify;
  /* text-shadow: 1px 1px rgb(76, 75, 75);*/
 }
 .about .content b {
   margin-bottom: 0;
-  color:white;
-  
+  color: rgb(77, 74, 74);
+  text-shadow: -1px 1px #000;
   font-size:23px;
 }
 .about .content li {
@@ -726,7 +728,7 @@ text-align: center;
   font-weight: 400;
   font-size:20px;
   /*color: #C9DFEC;*/
-  color: white;
+  color: rgb(48, 46, 46);
   text-shadow: -1px 1px #000;
  
 }
@@ -838,6 +840,7 @@ text-align: center;
 --------------------------------------------------------------*/
 .counts {
   padding: 4rem 0;  
+  background-image:url(../img/backG6.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -976,13 +979,14 @@ text-align: center;
 .services .section-title h2{
   font-weight: 700;
   font-size: 56px;
-  color:white;
+  color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
   padding-bottom: 15px;
 }
 .services .section-title p{
   text-align: center;
+  color: rgb(77, 74, 74);
   text-shadow: -1px 1px #000;
 }
 .services .icon-box {
@@ -995,7 +999,7 @@ text-align: center;
 .about .container h1  {
   font-weight: 700;
   font-size: 56px;
-  color: white;
+  color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
@@ -1543,11 +1547,12 @@ padding: 0 12%;
   padding-top: 0px;
 }
 .team .section-title h3{
-  color:white;
+  color: #000;
   padding-bottom: 15px;
 }
 .teachers{
   padding: 4rem 0;  
+  background-image:url(../img/backG6.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1760,12 +1765,16 @@ padding: 0 12%;
 .section-details h2{
   font-weight: 700;
   font-size: 56px;
+  color: #000;
+  text-shadow: 2px 1px 1px red;
   text-align: center;
   padding-bottom: 15px;
 }
 .section-details p{
   font-weight: 500;
   font-size: 20px;
+  color: rgb(77, 74, 74);
+  text-shadow: -1px 1px #000;
   text-align: center;
   margin-bottom: 1rem;
 
@@ -1775,6 +1784,7 @@ padding: 0 12%;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq{
+  background-image: url(../img/backG6.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
@@ -1890,7 +1900,7 @@ color: white;
 .port h1 ,h3{
     text-shadow: 2px 1px 1px red ;
     font-size:56px; 
-    color: white;
+    color: #000;
     padding-bottom:15px;
   }
 .port-main{
@@ -2096,6 +2106,7 @@ grid-gap: 20px;
 # Contact
 --------------------------------------------------------------*/
 #contact{
+  background-image: url(../img/backG6.jpg);
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -2108,7 +2119,7 @@ grid-gap: 20px;
 .section-titles h1{
   font-weight: 700;
   font-size: 56px;
-  color:white;
+  color: #000;
   text-shadow: 2px 1px 1px red;
   text-align: center;
   padding-bottom: 15px;
@@ -2118,7 +2129,7 @@ grid-gap: 20px;
   font-weight: 700;
   font-size: 25px;
   
-  color:white;
+  color: rgb(77, 74, 74);
   text-shadow: -1px 1px #000;
   text-align: center;
 }
