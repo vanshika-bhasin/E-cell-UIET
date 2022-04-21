@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #C9DFEC;
   background-color: #000;
+  
 }
 
 
@@ -607,6 +608,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
+
 }
 
 .section-title h2 {
@@ -717,16 +719,17 @@ text-align: center;
     text-align: justify;
     margin-left: 10%;
     font-weight: 400;
+    text-align: center;
     font-size:20px;
-    color: rgb(48, 46, 46);
+    color: white;
     text-shadow: -1px 1px #000;
   }
   
   .sihlinkhead{
     font-weight: 500;
     font-size: 40px;
-    color: #000;
-    text-shadow: 1px 0px 0px red;
+    color:white;
+    text-shadow:2px 1px 1px red;
     text-align: center;
     margin:0 0 2rem 0;
     box-shadow:1px solid #747474 !important;
@@ -1027,7 +1030,7 @@ align-items: center;
   }
 }
 .colli{
-  color:black;
+  color:white;
 }
 /* #OurWork{
   background-image:url(../img/backG6.jpg);
@@ -1418,7 +1421,7 @@ margin:2rem;
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
-  paading-top:20px;
+  padding-top:20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
@@ -1985,8 +1988,7 @@ PORTFOLIO
 color: white;
 
 } */
-#portfolio{
-}
+
 .port{
   text-align: center;
 
@@ -2212,8 +2214,7 @@ grid-gap: 20px;
 .section-titles h1{
   font-weight: 700;
   font-size: 56px;
-  color:white;
-  text-shadow: 2px 1px 1px red;
+  color: white;
   text-align: center;
   padding-bottom: 15px;
   
@@ -2223,7 +2224,6 @@ grid-gap: 20px;
   font-size: 25px;
   
   color:white;
-  text-shadow: -1px 1px #000;
   text-align: center;
 }
 label{
@@ -2421,7 +2421,7 @@ label{
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f6f6f6;
+
   min-height: 40px;
   margin-top: 80px;
 }
@@ -2904,7 +2904,7 @@ height:260px;
 .hero{
   height:auto;
   margin-bottom: 30px;
-  background-color: black;
+  background-color: white;
   box-shadow: 0px 4px 6px 0px rgb(0, 0, 0.3);
   overflow: hidden;
   padding-top:15px;
@@ -2968,8 +2968,8 @@ height:260px;
 .cheader h4{
   color: black;
   font-size: 1.17em;
-  text-align: center
-  min-block-size: 120px;
+  text-align: center;
+  min-block-size:120px;
 }
 @media (max-width:900px){
 .cheader h4{
